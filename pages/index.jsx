@@ -46,7 +46,7 @@ export default function Home() {
     </Head >
   );
 
-  const filteredMangaLinks = RelatedMangaLinks.filter(item => item.link !== DOMAIN);
+  // const filteredMangaLinks = RelatedMangaLinks.filter(item => item.link !== DOMAIN);
 
   const handleRedirect = () => {
     window.open('https://thampolsi.com/4/7457654', '_blank');
