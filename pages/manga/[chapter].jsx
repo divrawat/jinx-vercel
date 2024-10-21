@@ -6,7 +6,7 @@ import { APP_NAME, DOMAIN, MANGA_NAME, NEXT_PREVIOUS_PREFIX, IMAGE_PREFIX, CHAPT
 // import DisqusComments from '@/components/DisQus';
 import Popup from '@/components/Popup';
 
-export const runtime = 'experimental-edge';
+// export const runtime = 'experimental-edge';
 
 export default function Chapter({ chapterNumber, imageUrls, totalChapters, params, errorcode }) {
 

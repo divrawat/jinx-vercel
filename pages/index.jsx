@@ -137,15 +137,6 @@ export default function Home() {
 
 
 
-        <div className="bg-[black] relative">
-          <div className="absolute inset-0 bg-black opacity-80"></div> {/* Dark overlay */}
-          <div className="pt-10 pb-10 max-w-[1100px] mx-auto px-5 text-[white] relative z-10">
-            <h2 className="text-center font-extrabold text-3xl">{`More About ${MANGA_NAME} Manga`}</h2>
-            {MANGA_SUMMARY.map(paragraph => (
-              <p className="py-7 leading-[2]" key={paragraph.id}>{paragraph.content}</p>
-            ))}
-          </div>
-        </div>
       </article >
       <Footer />
     </>
