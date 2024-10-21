@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /images/
+
+Sitemap:https://jinxmanga.vercel.app/sitemap.xml

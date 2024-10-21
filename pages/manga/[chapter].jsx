@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
-import { APP_NAME, DOMAIN, MANGA_NAME, NEXT_PREVIOUS_PREFIX, IMAGE_PREFIX, CHAPTER_PREFIX, AUTHOR_PAGE, LOGO_URL, chaptersData, MANGA_SUMMARY, DOMAIN_NAME, IMAGES_SUBDOMAIN } from '@/config';
+import { APP_NAME, DOMAIN, MANGA_NAME, NEXT_PREVIOUS_PREFIX, IMAGE_PREFIX, CHAPTER_PREFIX, chaptersData, IMAGES_SUBDOMAIN } from '@/config';
 // import DisqusComments from '@/components/DisQus';
 import Popup from '@/components/Popup';
 
